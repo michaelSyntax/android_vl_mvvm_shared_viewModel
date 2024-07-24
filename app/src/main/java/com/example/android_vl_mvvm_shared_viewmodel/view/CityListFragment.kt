@@ -27,6 +27,6 @@ class CityListFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val navController = findNavController()
-        binding.rvCities.adapter = CityAdapter(viewModel.loadCities(), viewModel, navController)
+        binding.rvCities.adapter = CityAdapter(viewModel.loadCities(), viewModel)
     }
 }
