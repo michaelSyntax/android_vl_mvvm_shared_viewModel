@@ -2,7 +2,7 @@ package com.example.android_vl_mvvm_shared_viewmodel.model
 
 import com.example.android_vl_mvvm_shared_viewmodel.R
 
-class Datasource {
+class Repository {
 
     fun loadCities(): List<City> {
         return listOf(
